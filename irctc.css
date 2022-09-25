@@ -16,8 +16,6 @@ header {
     width: 100%;
     background-color: white;
     margin: 10px;
-    
-    
 }
 
 .logo1 {
@@ -285,7 +283,7 @@ header {
 
 .content {
     background-color: lightgrey;
-    background-image: url(/img/indian-railways-irctc-1601651073.jpg);
+    background-image: url(../img/indian-railways-irctc-1601651073.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
