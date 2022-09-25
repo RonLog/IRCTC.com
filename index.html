@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <link rel="stylesheet" href="irctc.css">
+    <link rel="shortcut icon" href="/img/logo.png" type="image/x-icon">
+    <script>
+        var dt = new Date();
+        document.getElementById('date').innerHTML = dt;
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="main">
+            <div class="logo1">
+                <img src="/img/secondry-logo.png" alt="">
+            </div>
+            <div class="twobar">
+                <div class="bar1">
+                    <ul>
+                        <li><a href="" style="background-color:darkblue;color:white">LOGIN</a></li>
+                        <li><a href="">REGISTER</a></li>
+                        <li><a href="">AGENT LOGIN</a></li>
+                        <li><a href="">CONTACT US</a></li>
+                        <li><a href="">ASKDISHA</a></li>
+                        <li><a href="">ALERTS</a></li>
+                        <li><a id="date" href="">LIVE DATE[TIME]</a></li>
+                        <li><a href="">A-</a></li>
+                        <li><a href="">A</a></li>
+                        <li><a href="">A+</a></li>
+                        <li><a href="">हिन्दी</a></li>
+                    </ul>
+
+                </div>
+                <div class="bar2">
+                    <ul>
+                        <li><a href="#content">🏠</a></li>
+                        <li>
+                            <a href="" style="background-color:darkblue;color:white">IRCTC EXCLUSIVE</a>
+                            <ul >
+                                <li class="wallet">
+                                    <a href="">IRCTC eWallet&nbsp;⯈</a>
+                                    <ul id="ewallet">
+                                        <li><a href="">About IRCTC eWallet</a></li>
+                                        <li><a href="">IRCTC eWallet User Guide</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="">IRCTC iMudra</a></li>
+                                <li><a href="">IRCTC-iPAY</a></li>
+                                <li><a href="">e-Gift Vouchers</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href=""
+                                style="background-color:white;color:darkorange;border-bottom: 1px soild darkorange;">TRAINS</a>
+
+                            <ul>
+                                <li><a href="">Book Ticket</a></li>
+                                <li><a href="">Fouren Tourist Booking</a></li>
+                                <li><a href="">Connecting Journey Booking</a></li>
+                                <li class="trains">
+
+                                    <a href="">IRCTC Trains&nbsp;⯈</a>
+                                    <ul id="irtrain">
+                                        <li><a href="">Group Booking</a></li>
+                                        <li><a href="">Travel Insurance Claim Process</a></li>
+                                    </ul>
+
+                                </li>
+                                <li class="cancel">
+                                    <a href="">Cancel Tickets&nbsp;⯈</a>
+                                    <ul id="ulcancel">
+                                        <li><a href="">e-Ticket</a></li>
+                                        <li><a href="">Counter Ticket</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="">PNR Enquiry</a></li>
+                                <li><a href="">Train Schedule</a></li>
+                                <li><a href="">Track Your Train</a></li>
+                                <li><a href="">FTR Coach/Train Booking</a></li>
+
+                            </ul>
+                        </li>
+                        <li><a href="">BUSES</a></li>
+                        <li><a href="">FLIGHTS</a></li>
+                        <li><a href="">HOTELS</a></li>
+                        <li>
+                            <a href="">HOLIDAYS</a>
+                            <ul>
+                                <li class="special">
+                                    <a href="">Special Trains&nbsp;⯈</a>
+                                    <ul id="ulspecial">
+                                        <li><a href="">Tourists Train</a></li>
+                                        <li><a href="">Maharaja's Express</a></li>
+                                    </ul>
+                                </li>
+                                <li class="pacakge">
+                                    <a href="">Packages&nbsp;⯈</a>
+                                    <ul id="ulpacakge">
+                                        <li><a href="">Tour Package</a></li>
+                                        <li><a href="">Air Package</a></li>
+                                        <li><a href="">International Package</a></li>
+                                        <li><a href="">Land Package</a></li>
+                                        <li><a href="">Cruise</a></li>
+                                    </ul>
+                                </li>
+                                <li class="stay">
+                                    <a href="">Stays&nbsp;⯈</a>
+                                    <ul id="ulstay">
+                                        <li><a href="">Retiring Room</a></li>
+                                        <li><a href="">Lounge</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+
+                        </li>
+                        <li>
+                            <a href="">LOYALITY</a>
+                            <ul class="loyality">
+                                <li><a href="">
+                                        IRCTC SBI Credit Card&nbsp;⯈</a>
+                                    <ul id="subloyality">
+                                        <li><a href="">About IRCTC SBI Credit Card</a></li>
+                                        <li><a href="">IRCTC Platinum Card Rupay e-Apply</a></li>
+                                    </ul>
+                                </li>
+                                <li class="loyal">
+                                    <a href="">IRCTC BOB Credit Card&nbsp;⯈</a>
+                                    <ul id="ulloyal">
+                                        <li><a href="">About IRCTC BOB Credit Card</a></li>
+
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="">MEALS</a>
+                            <ul>
+                                <li><a href="">Ordered Book E-Catering</a></li>
+                                <li><a href="">Book Food-Pantry Car</a></li>
+                                <li><a href="">Cooked Food Menu</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="">PROMOTIONS</a>
+                            <ul>
+                                <li class="promo">
+                                    <a href="">Advertise With Us&nbsp;⯈</a>
+                                    <ul id="ulpromo">
+                                        <li><a href="">Banner Advertisment</a></li>
+                                        <li><a href="">Push Notification</a></li>
+                                        <li><a href="">ChatBot Advertisment</a></li>
+                                        <li><a href="">Cuboid Advertisement</a></li>
+                                        <li><a href="">e-Ticket Advertisement</a></li>
+                                        <li><a href="">Logout Advertisement</a></li>
+                                        <li><a href="">SMS(Promotional)</a></li>
+                                        <li><a href="">Booking Mail Advertisement</a></li>
+                                        <li><a href="">Cancellation Mail Advertisement</a></li>
+                                        <li><a href="">Mail(Promotional)</a></li>
+                                        <li><a href="">Captcha Advertisement</a></li>
+                                    </ul>
+
+                                </li>
+                                <li class="connapp">
+                                    <a href="">IRCTC Rail ConnectApp&nbsp;⯈</a>
+                                    <ul id="ulconnapp">
+                                        <li><a href="">Mobile Android App</a></li>
+                                        <li><a href="">Mobile ios App</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="">IRCTC Tourism App</a></li>
+                                <li><a href="">IRCTC Air App</a></li>
+                                <li><a href="">UTS Ticket App</a></li>
+                                <li class="credit">
+                                    <a href="">IRCTC Sbi Credit Card&nbsp;⯈</a>
+                                    <ul id="ulcredit">
+                                        <li><a href="">About IRCTC SBI Credit Card</a></li>
+                                        <li><a href="">IRCTC Platinum Card Rupay e-Apply</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="">Trains at Glance</a></li>
+                                <li><a href="">National Voter's Service Portal</a></li>
+                                <li><a href="">Mahila e-Haat</a></li>
+                                <li><a href="">Medical Tourism</a></li>
+                                <li><a href="">Rail Drishti</a></li>
+                                <li><a href="">Indian Railways Magazines</a></li>
+                                <li><a href="">Railways Frieght Business Portal</a></li>
+                            </ul>
+                        <li class="premi">
+                            <a href="" style="background-color:darkblue;color:white">PREMIUM PARTNER</a>
+                            <ul id="subpremi">
+                                <li><a href=""><img src="/img/makeMyTrip.png" width="30px" alt="">Make My
+                                        Trip Strains</a></li>
+                                <li><a href=""><img src="/img/easeMyTrip.png" width="30px" alt="">Ease MyTrip</a></li>
+                                <li><a href=""><img src="/img/goibibo.png" width="30px" alt="">Goibibo</a></li>
+                            </ul>
+
+                        </li>
+
+                        <li>
+                            <a href="">MORE</a>
+                            <ul>
+                                <li><a href="">ChatBot as a Service(CaaS)</a></li>
+                                <li><a href="">Link Your Adhaar</a></li>
+                                <li><a href="">Counter Ticket Cancellation</a></li>
+                                <li><a href="">Counter Ticket Boarding Point Change</a></li>
+                                <li><a href="">Forgot Account Deals?</a></li>
+                                <li class="atstation">
+                                    <a href="">⯇&nbsp;At Station</a>
+                                    <ul id="ulatstation">
+                                        <li><a href="">Wifi Railways Stations</a></li>
+                                        <li><a href="">Battery Operated Cars</a></li>
+                                        <li><a href="">e-WheelChair</a></li>
+                                        <li><a href="">Retiring Room</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="logo2">
+                <img src="/img/logo.png" alt="">
+            </div>
+        </div>
+    </header>
+    <div class="content" id="content">
+        <ul
+            style="display:flex;list-style:none;margin:0px 50px 0px 50px;font-style: none;position: relative;left:100px;">
+            <li
+                style="width:18%;height:30px;line-height:30px;margin-left: 10px; background-color: darkblue; border-radius: 10px ; text-align: center;">
+                <img style="position:relative;right:50px;background-color: white;border-radius: 5px;"
+                    src="https://img.icons8.com/ios-filled/25/000000/checked-checkbox.png" /><a style="color: white;"
+                    href="">PNR STATUS</a>
+            </li>
+            <li
+                style="width:18%;height:30px;line-height:30px;margin-left: 10px; background-color: darkblue;border-radius: 10px;text-align: center;">
+                <img style="position:relative;right:25px;background-color: white;border-radius: 5px;"
+                    src="https://img.icons8.com/external-outline-lafs/25/000000/external-ic_careers_vacancy-menu-outline-lafs.png" /><a
+                    style="color: white;" href="">CHARTS/VACANCY</a>
+            </li>
+        </ul>
+
+        
+
+        <form action="">
+            <img src="/img/logo_top_eng.jpg" alt="">
+            <span
+                style="margin-left: 30px;text-align: center;font-size: 30px;font-weight:bold;color: darkblue;position: relative;top:-35px;left:15px;">
+                BOOK TICKET</span>
+            <br><br>
+            
+            <input style="width: 300px;height:25px;" type="text" name="stations" list="fromstationnames"
+                id="fromstations" placeholder="➹&nbsp;From">
+            <datalist id="fromstationnames">
+            
+                <option value="Kalyan"></option>
+                <option value="Thane"></option>
+                <option value="Dadar"></option>
+                <option value="CST"></option>
+                
+            </datalist>
+
+            
+            <input style="cursor:pointer;width: 200px;height:25px;margin-left: 20px;" type="date" name=""
+                id="date"><br><br>
+                    
+            <input style="width: 300px;height:25px;" type="text" name="stations" list="tostationnames" id="tostations"
+                placeholder="📍&nbsp;To">
+            <datalist id="tostationnames">
+                <option value="Kalyan"></option>
+                <option value="Thane"></option>
+                <option value="Dadar"></option>
+                <option value="CST"></option>
+            </datalist>
+
+
+
+            <select style=" cursor:pointer;width: 200px;height:28px; margin-left: 20px;" name="" id="classes">
+                <option value="all classes">💼&nbsp;All Classes</option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+            </select><br><br>
+
+            <select style=" cursor:pointer;width: 300px;height:28px;" name="" id="general">
+                <option value="general">⊞&nbsp;General</option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+            </select><br><br><br>
+
+            <input type="checkbox" name="" id="">Person With Disability Concession&nbsp;&nbsp;
+            <input type="checkbox" name="" id="">Flexible With Date<br>
+            <input type="checkbox" name="" id="">Train with Available Berth&nbsp;&nbsp;
+            <input type="checkbox" name="" id="">Railway Pass Concession<br><br><br>
+
+
+            <input
+                style="cursor:pointer; height: 30px;width: 120px;background-color: darkorange;color: white;border: none;border-radius: 5px;"
+                type="button" value="Search">
+
+        </form>
+        <div class="formdown">
+            <h5><span style="color: red;cursor: pointer;">New</span> IRCTC launches ticket booking on ASK DISHA 2.0
+                <span style="color: aqua;cursor: pointer;">Click here</span>
+            </h5>
+            <h5>Indian Railways have started provisioning of Linen in trains.
+                <span style="color: aqua;cursor: pointer;">Click here</span><br> for the list of trains where Linen
+                Services have been restarted as on date.
+            </h5>
+        </div>
+        <div class="formright">
+            <h1>INDIAN RAILWAYS</h1>
+            <a href="">Safety</a>|<a href="">Security</a>|<a href="">Punctuality</a>
+        </div>
+
+    </div>
+    <div class="services">
+        <div class="servicepitch" style="text-align: center; margin-top: 20px;">
+            <h1>Have you not found the right one?</h1>
+            <h1>Find a service suitable for you here.
+            </h1>
+        </div>
+        <div class="service1">
+            <div class="s1">
+                <br>
+                <img src="https://img.icons8.com/ios/50/000000/airplane-mode-on--v1.png" />
+                <h3>FLIGHTS</h3>
+            </div>
+            <div class="s2">
+                <br>
+                <img src="https://img.icons8.com/fluency-systems-regular/48/000000/hotel-star.png" />
+                <h3>HOTELS</h3>
+            </div>
+            <div class="s3">
+                <img
+                    src="https://img.icons8.com/external-icongeek26-glyph-icongeek26/64/000000/external-chart-data-analytics-icongeek26-glyph-icongeek26-1.png" />
+                <h3> RAIL DRISHTI</h3>
+            </div>
+            <div class="s4">
+                <img
+                    src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/000000/external-catering-bowling-and-arcade-flaticons-lineal-color-flat-icons.png" />
+                <h3>E-CATERING</h3>
+            </div>
+            <div class="s5">
+                <br>
+                <img src="https://img.icons8.com/ios-filled/50/000000/bus.png" />
+                <h3>BUS</h3>
+            </div>
+        </div>
+        <div class="service2">
+            <div class="s1">
+                <img src="https://img.icons8.com/ios/50/000000/sunbathe.png" />
+                <h3>HOLIDAY PACKAGES</h3>
+            </div>
+            <div class="s2">
+                <img src="https://img.icons8.com/dotty/60/000000/train.png" />
+                <h3>TOURIST TRAIN</h3>
+            </div>
+            <div class="s3">
+                <img
+                    src="https://img.icons8.com/external-smashingstocks-thin-outline-smashing-stocks/67/000000/external-hill-travel-holidays-smashingstocks-thin-outline-smashing-stocks.png" />
+                <h3>HILL RAILWAYS</h3>
+            </div>
+            <div class="s4">
+                <img src="https://img.icons8.com/ios/50/000000/train-station.png" />
+                <h3>CHARTER TRAIN</h3>
+            </div>
+            <div class="s5">
+                <img src="https://img.icons8.com/wired/64/000000/gallery.png" />
+                <h3>GALLERY</h3>
+            </div>
+        </div>
+    </div>
+    <div class="video">
+        <iframe src="https://www.youtube.com/embed/ZgFHM74dhRU?autoplay=1" width="560" height="315"
+            title="A YouTube video" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <h1 style="text-align: center;margin:20px 0px 20px 0px;">HOLIDAYS</h1>
+    <div class="holidays">
+        <div class="h1">
+            <img src="/img/h1.jpg" alt="">
+            <h1>Maharajas' Express</h1>
+            <p>Redefining Royalty, Luxury and Comfort,
+                Maharajas' express takes you on a sojourn to
+                the era of bygone stately splendour of princely
+                states. Sylvan fumishings, elegant ambience
+                and modern amenities are amalgamated for an
+                Experience Unsurpassed”. It has been a winner
+                of “World's Leading Luxury train’ by World
+                Travel Awards consecutively for last six years
+            </p>
+            <a href="">Read More ➞</a>
+        </div>
+        <div class="h2">
+            <img src="/img/h2.jpg" alt="">
+            <h1>International Fackage</h1>
+            <p>Best deals in International Holiday packages.
+                handpicked by IRCTC. for Thailand, Dubai, Sri
+                Lanka, Hong Kong, China, Macau, Bhutan.
+                Nepal, UK. Europe, USA, Australia etc. The
+                packages are inclusive of sightseeing, meals.
+                visa charges and overseas medical insurance to
+                give you a hassle-free and memorable
+            </p>
+            <a href="">Read More ➞</a>
+        </div>
+        <div class="h3">
+            <img src="/img/h3.jpg" alt="">
+            <h1>Domestic Air Packages</h1>
+            <p>Be it the spiritual devotee seeking blessings of
+                Tirupati, Shirdi or Mata Vaishno Devi or the
+                leisure traveller wanting to relish the Blue
+                mountains of North East, Sand-dunes of
+                Rajasthan, Hamlets of Ladakh, Wonders of
+                Himalayas, Serene lakes or Picturesque
+                Islands, IRCTC has it all. Discover India through
+                IRCTC!
+            </p>
+            <a href="">Read More ➞</a>
+
+        </div>
+        <div class="h4">
+            <img src="/img/h4.jpg" alt="">
+            <h1>Buddhist Circuit Tourist
+                Train
+            </h1>
+            <p>India, the country where Buddhism originated
+                has rich memories of the Buddhist legacy. As
+                part of its drive towards austerity. the only kind
+                of art & architecture that it supported were
+                Stupas, Chaityas & Viharas. Buddhist Train
+                India will help you visit all these places up close
+                for a truly religious experience.
+            </p>
+            <a href="">Read More ➞</a>
+        </div>
+        <div class="h5">
+            <img src="/img/h5.jpg" alt="">
+            <h1>Rail Tour Packages
+            </h1>
+            <p>IRCTC offers Exclusive Rail tour packages with
+                confirmed train tickets, sight-seeing and meals
+                for enchanting Nilgiri Mountains, Darjeeling.
+                Kullu Manali, Kashmir, Gangtok or divine tours
+                of Mata Vaishno Devi, Rameswaram, Madurai,
+                Shirdi, Tirupati etc. Holiday packages! Land
+                packages to these destinations are also
+                available.
+            </p>
+            <a href="">Read More ➞</a>
+        </div>
+
+    </div>
+    <div class="social">
+        <div class="social1">
+        <span>Get Connected with us on social networks</span>
+        </div>
+
+        <div class="social2">
+        <a href="" target="_blank"><img src="https://img.icons8.com/fluency/48/000000/facebook-new.png" />
+            <a href="" target="_blank"><img src="https://img.icons8.com/fluency/48/000000/instagram-new.png" /></a>
+            <a href="" target="_blank"><img src="https://img.icons8.com/color/48/000000/youtube--v1.png" /></a>
+            <img src="https://img.icons8.com/fluency/48/000000/twitter.png" />
+            <img src="https://img.icons8.com/color/48/000000/koo.png" />
+            <img src="https://img.icons8.com/fluency/48/000000/zoom.png" />
+            <a href="" target="_blank"><img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" /></a>
+            <a href="" target="_blank"><img src="https://img.icons8.com/fluency/48/000000/linkedin.png" /></a>
+            <img src="https://img.icons8.com/fluency/48/000000/pinterest.png" />
+        </div>
+    </div>
+    </div>
+    <div class="footup">
+        <div class="f1">
+
+            <details>
+                <summary>IRCTC Train</summary>
+                <p>Salient Features</p>
+                <p>Ticket Cancellation Rules</p>
+                <p>Foreign Tourist T&C</p>
+                <p>Group Booking T&C</p>
+                <p>Travel Insurance Claim Process</p>
+            </details>
+
+            <details>
+                <summary>General Information</summary>
+                <p>More info</p>
+                <p>FAQs</p>
+                <p>Terms & Conditions</p>
+                <p>Travel Insurance T&C</p>
+                <p>FTR T&C</p>
+                <p>Scheme for issue of waitlisted E-tickets</p>
+                <p>Protect against fraudulent emails</p>
+                <p>General Guideline for SUVIDHA trains</p>
+                <p>Current booking Guidelines</p>
+                <p>Forgo Senior Citizen Concession-FAQ</p>
+                <p>Trains at a Glance</p>
+                <p>Guidelines for Boarding Station change</p>
+                <p>Guideline for PASS Booking</p>
+            </details>
+
+            <details>
+                <summary>Important Information</summary>
+                <p>Bank Transaction Charges</p>
+                <p>Women Sr. Citizen Concession</p>
+                <p>VIKALP Scheme</p>
+                <p>Travel Insurance (Incl. of GST)</p>
+                <p>Browser Settings</p>
+
+
+            </details>
+
+            <details>
+                <summary>Agents</summary>
+                <p>IRCTC Authorized Service Providers</p>
+                <p>Digital Certificate Generation Process</p>
+                <p>Blacklist Agent</p>
+                <p>Find NgeT Agents</p>
+                <p>Rules and Regulations for the Agents</p>
+                <p>Norms for RTSA</p>
+                <p>Norms for IATA</p>
+                <p>Norms for GSA</p>
+                <p>Norms for Internet Cafe Scheme</p>
+                <p>Norms for B2B Scheme</p>
+                <p>Norms for B2C & Mobile Scheme</p>
+                <p>Registration Form</p>
+                <p>Requisition Slip</p>
+
+            </details>
+
+            <details>
+                <summary>Enquiries</summary>
+                <p>Reservation Enquiries</p>
+                <p>PNR Enquiry</p>
+                <p>Train Enquiry</p>
+                <p>Train/Fare Accommodation</p>
+                <p>Train Between Important Stations</p>
+                <p>Railway Enquiry-139</p>
+            </details>
+
+
+        </div>
+        <div class="f2">
+
+            <details>
+                <summary>How To</summary>
+                <p>Register</p>
+
+                <p>Book E-ticket (PDF) (VIDEO)</p>
+
+                <p>Book tatkal ticket</p>
+
+                <p>Book Concession Tickets for Person With Disability</p>
+
+                <p>Cancel E-ticket</p>
+
+                <p>International/NRI User Registration Guide</p>
+
+                <p>Change Boarding Point</p>
+
+                <p>Link Your Aadhaar</p>
+            </details>
+
+            <details>
+                <summary>IRCTC Official App</summary>
+                <p>IRCTC Official App</p>
+
+                <p>IRCTC Rail Connect (Android)</p>
+
+                <p>IRCTC Rail Connect (iOS)</p>
+
+                <p>IRCTC Order Food (Android)</p>
+
+                <p>IRCTC Order Food (IOS)</p>
+
+                <p>IRCTC Tourism App</p>
+
+                <p>IRCTC Air App (Android)</p>
+
+                <p>IRCTC Air App (IOS)</p>
+
+                <p>IRCTC iMudra (Android)</p>
+            </details>
+
+            <details>
+                <summary>Advertise With Us</summary>
+                <p>IRCTC Marketing Statistics</p>
+
+                <p>Banner-Advertisement</p>
+
+                <p>Banner Locations on IRCTC</p>
+
+                <p>Push Notification</p>
+
+                <p>Chat Bot Advertisement</p>
+
+                <p>Chat Bot : As a IRCTC Service</p>
+
+                <p>Cuboid Advertisement</p>
+
+                <p>e-Ticket(ERS) Advertisement</p>
+
+                <p>Logout Advertisement</p>
+
+                <p>139-Jingles</p>
+
+                <p>SMS(Promotional)</p>
+
+                <p>Booking Mail Advertisement</p>
+
+                <p>Cancellation Mail Advertisement</p>
+
+                <p>Mailer(Promotional)</p>
+
+                <p>Captcha Advertisement</p>
+            </details>
+
+            <details>
+                <summary>Refund Rules</summary>
+
+
+                <p>Ticket Cancellation & Refund Rules</p>
+
+                <p>Gazette: Cancellation of Ticket and Refund Rules 2015</p>
+
+                <p>Refund Rule of Suvidha Train</p>
+
+                <p>Refund Rule COVID19 - RB 13.05.2020</p>
+            </details>
+
+            <details>
+                <summary>Person With Disability Facilities</summary>
+                <p>Facilities for Person With Disability Users</p>
+
+                <p>Facilities for Visually Impaired Users</p>
+
+                <p>User Guide: Person With Disability Booking</p>
+
+            </details>
+
+
+        </div>
+        <div class="f3">
+
+            <details>
+                <summary>IRCTC eWallet</summary>
+                <p>About</p>
+
+            </details>
+
+            <details>
+                <summary>IRCTC Loyality Program</summary>
+                <p>IRCTC SBI Credit Card</p>
+
+                <p>About IRCTC Loyalty Scheme</p>
+
+                <p>Loyalty Account Linking</p>
+
+                <p>Set Transaction Password</p>
+
+                <p>Accrual of Points</p>
+
+                <p>Redemption of points</p>
+
+                <p>Purchase of Points</p>
+            </details>
+
+            <details>
+                <summary>IRCTC-iPay Payment Gateway</summary>
+                <p>IRCTC-iPAY Payment Gateway</p>
+
+                <p>IRCTC-iPAY (PDF) (VIDEO)</p>
+
+                <p>AutoPay</p>
+            </details>
+
+            <details>
+                <summary>IRCTC Zone</summary>
+                <p>Jago yatri jago</p>
+
+                <p>Jansankhya Sthirata Kosh</p>
+
+                <p>Maharaja"s Express</p>
+            </details>
+
+        </div>
+        <div class="f4">
+
+            <details>
+                <summary>For Newly MIgrant Agents</summary>
+                <p>Login Manual - from old site to new site</p>
+
+                <p>Operating Manual for new e-ticketing website</p>
+
+                <p>Operating Manual for Agent Interface Application</p>
+            </details>
+
+            <details>
+                <summary>Mobile Zone</summary>
+                <p>IRCTC Android App - IRCTC Rail Connect</p>
+
+                <p>ClearTrip</p>
+
+                <p>Google Pay</p>
+
+                <p>Goibibo</p>
+
+                <p>MakeMyTrip</p>
+
+                <p>Ixigo Trains</p>
+
+                <p>Ixigo Flights</p>
+
+                <p>PayTM</p>
+
+                <p>JustDial</p>
+
+                <p>redRail</p>
+
+                <p>redBus</p>
+
+                <p>Railofy</p>
+
+                <p>Railyatri</p>
+
+                <p>Trainman</p>
+
+                <p>SBI YONO</p>
+
+                <p>Yatra</p>
+
+                <p>udChalo</p>
+
+                <p>Kotak</p>
+
+                <p>ICICI</p>
+
+                <p>HDFC PayZapp</p>
+
+                <p>Trippozo</p>
+            </details>
+
+            <details>
+                <summary>Policies</summary>
+                <details>
+                    <summary>Agents & Principal Service Providers Policies for Reserved e-Ticketing</summary>
+
+                    <a href="TrainInformationEnquiryServices(TIES)"
+                        target="_blank">➜&nbsp;TrainInformationEnquiryServices(TIES)</a><br>
+                    <a href="B2C-StartUp/MSME" target="_blank">➜&nbsp;B2C-StartUp/MSME</a><br>
+                    <a href="e-GovernancePolicy(B2B/ICS)" target="_blank">➜&nbsp;e-GovernancePolicy(B2B/ICS)</a><br>
+                    <a href="B2BandICS(InternetCafé)PSP’s" target="_blank">➜&nbsp;B2BandICS(InternetCafé)PSP’s</a><br>
+                    <a href="B2CPSP((otherthanStart-up/MSME))"
+                        target="_blank">➜&nbsp;B2CPSP((otherthanStart-up/MSME))</a><br>
+                    <a href="GSAB2B(WebServices)PSPOutsideIndiaforTraine-ticketing"
+                        target="_blank">➜&nbsp;GSAB2B(WebServices)PSPOutsideIndiaforTraine-ticketing</a><br>
+                    <a href="DirectAgents(IATA/RSA/GSAetc.)"
+                        target="_blank">➜&nbsp;DirectAgents(IATA/RSA/GSAetc.)</a><br>
+
+                </details>
+                <details>
+                    <summary>Payment Integration Policies for Reserved e-Ticketing</summary>
+                    <a href="EMIIntegrationonWebsite/MobileApp"
+                        target="_blank">➜&nbsp;EMIIntegrationonWebsite/MobileApp</a><br>
+                    <a href="PaymentGateway/CardAcquiringIntegrationonWebsite/MobileApp"
+                        target="_blank">➜&nbsp;PaymentGateway/CardAcquiringIntegrationonWebsite/MobileApp</a><br>
+                    <a href="MultiplePaymentProvideronWebsite/MobileApp(MPP)"
+                        target="_blank">➜&nbsp;MultiplePaymentProvideronWebsite/MobileApp(MPP)</a><br>
+                    <a href="“BookNowPayLater”IntegrationonWebsite/MobileApp"
+                        target="_blank">➜&nbsp;BookNowPayLater”IntegrationonWebsite/MobileApp</a><br>
+                    <a href="NetBankingIntegrationonWebsite"
+                        target="_blank">➜&nbsp;NetBankingIntegrationonWebsite</a><br>
+                    <a href="PrepaidPaymentInstrumentIntegrationonWebsite"
+                        target="_blank">➜&nbsp;PrepaidPaymentInstrumentIntegrationonWebsite</a><br>
+                    <a href="PrepaidPaymentInstrumentIntegrationonMobileApp"
+                        target="_blank">➜&nbsp;PrepaidPaymentInstrumentIntegrationonMobileApp</a><br>
+                    <a href="UPIIntegrationonWebsite/MobileApp"
+                        target="_blank">➜&nbsp;UPIIntegrationonWebsite/MobileApp</a><br>
+
+                </details>
+                <details>
+                    <summary>Payment Integration Policies for Unreserved Ticketing</summary>
+                    <a href="PaymentIntegrationonUTSApp" target="_blank">➜&nbsp;PaymentIntegrationonUTSApp</a><br>
+
+                </details>
+                <details>
+                    <summary>Payment Integration Policies for e-Catering</summary>
+                    <a href=";MultiplePaymentProviderIntegrationone-CateringWebsiteandMobileApp"
+                        target="_blank">➜&nbsp;MultiplePaymentProviderIntegrationone-CateringWebsiteandMobileApp</a>
+                    <br>
+                </details>
+                <details>
+                    <summary>Marketing Policies</summary>
+                    <a href="HandicraftWebsitesPromotionPolicy"
+                        target="_blank">➜&nbsp;HandicraftWebsitesPromotionPolicy</a><br>
+                    <a href="PolicyforEmpanelmentofAdvertisingAgency"
+                        target="_blank">➜&nbsp;PolicyforEmpanelmentofAdvertisingAgency</a><br>
+                    <a href="PromotionalSMSPolicy" target="_blank">➜&nbsp;PromotionalSMSPolicy</a><br>
+                    <a href="PolicyforEmpanelmentofAdvertisingAgencyonDAVP/BOCRates"
+                        target="_blank">➜&nbsp;PolicyforEmpanelmentofAdvertisingAgencyonDAVP/BOCRates</a><br>
+
+                </details>
+
+            </details>
+
+            <details>
+                <summary>Ask Diksha ChatBot</summary>
+                <p>Services of Ask Disha ChatBot</p>
+
+                <p>Features of Ask Disha ChatBot</p>
+            </details>
+
+            <details>
+                <summary>About Us</summary>
+                <p>Awards & Achievements</p>
+            </details>
+
+        </div>
+
+    </div>
+    <div class="footer">
+        <img src="/img/icon/security.png" alt="">
+        Copyright ©2022 www.dummyirctc.co.in,All Rights Reserved.
+        Created By <span style="color: darkred;font-size:large;font-weight: bold;">Roshan</span>
+    </div>
+    <div class="gif">
+        <img src="/img/namashte.gif" alt="">
+    </div>
+    <div class="cube">
+        <img src="/img/3dgifirctc.gif" alt="">
+    </div>
+    <div class="thumsup">
+        <img src="/img/Thumbsup.gif" alt=""><br>
+        <img src="/img/DEALS....png" alt="">
+    </div>
+
+
+    <div>
+        <button class="open-button" onclick="openForm()">Click here</button>
+
+        <div class="chat-popup" id="myForm">
+            <form action="/action_page.php" class="form-container">
+        
+                <img src="/img/disha-home-diwali-sort.png" alt="">
+           
+                <button type="submit" class="btn"><img src="/img/train-blue.svg" alt=""> <span style="font-size:x-large"> Book Ticket</span>
+                   </button>
+                <button type="button" class="btn cancel" onclick="closeForm()">❌</button>
+                <iframe src="https://www.youtube.com/embed/ZgFHM74dhRU?autoplay=1" width="300" height="315"
+            title="A YouTube video" frameborder="0" allowfullscreen></iframe>
+            </form>
+            
+        </div>
+
+    </div>
+
+
+    <script>
+        function openForm() {
+            document.getElementById("myForm").style.display = "block";
+        }
+
+        function closeForm() {
+            document.getElementById("myForm").style.display = "none";
+        }
+    </script>
+
+</body>
+
+</html>
