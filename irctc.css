@@ -814,7 +814,7 @@ outline:3px solid darkblue;
 
 .pop_up_container {
     position: fixed;
-    top:150px;
+    top:300px;
     background-color: rgba(0, 0, 0, .3);
     inset: 0;
     display: grid;
