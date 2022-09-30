@@ -112,15 +112,12 @@ header {
 
 .bar2 ul ul {
     display: none;
-    width: 100%;
     white-space: nowrap;
-
+    
 }
 
 .bar2 ul ul li {
     padding: 5px 5px;
-    
-
 }
 
 .bar2 ul ul li:hover {
@@ -130,19 +127,19 @@ header {
 
 .bar2 ul li:hover ul {
     display: block;
+    position: absolute;
     flex-basis: 300px;
     background-color: white;
     border: 1px solid black;
     border-radius: 10px;
-   
 }
 
 
 #ewallet {
     display: none;
-    position: relative;
-    left: 180px;
-    top: -20px;
+    position: absolute;
+    left: 150px;
+    top: 0px;
 }
 
 .wallet:hover #ewallet {
@@ -151,9 +148,9 @@ header {
 
 #irtrain {
     display: none;
-    position: relative;
-    left: 225px;
-    top: -20px;
+    position: absolute;
+    left: 230px;
+    top: 100px;
 
 }
 
@@ -163,9 +160,9 @@ header {
 
 #ulcancel {
     display: none;
-    position: relative;
-    left: 203px;
-    top: -20px;
+    position: absolute;
+    left: 230px;
+    top: 140px;
 }
 
 .cancel:hover #ulcancel {
@@ -174,9 +171,9 @@ header {
 
 #ulspecial {
     display: none;
-    position: relative;
-    left: 157px;
-    top: -20px;
+    position: absolute;
+    left: 140px;
+    top: 0px;
 }
 
 .special:hover #ulspecial {
@@ -185,9 +182,9 @@ header {
 
 #ulpacakge {
     display: none;
-    position: relative;
-    left: 172px;
-    top: -20px;
+    position: absolute;
+    left: 140px;
+    top: 40px;
 }
 
 .pacakge:hover #ulpacakge {
@@ -197,9 +194,9 @@ header {
 
 #ulstay {
     display: none;
-    position: relative;
+    position: absolute;
     left: 140px;
-    top: -20px;
+    top: 80px;
 }
 
 .stay:hover #ulstay {
@@ -209,22 +206,21 @@ header {
 
 #subloyality {
     display: none;
-    position: relative;
-    left: 252px;
-    top: -20px;
+    position: absolute;
+    left: 220px;
+    top: 0px;
 }
 
 .loyality:hover #subloyality {
     display: block;
 
-
 }
 
 #ulloyal {
     display: none;
-    position: relative;
-    left: 252px;
-    top: -20px;
+    position: absolute;
+    left: 220px;
+    top: 45px;
 }
 
 .loyal:hover #ulloyal {
@@ -234,12 +230,11 @@ header {
 
 #ulpromo {
     display: none;
-    position: relative;
-    left: 237px;
-    top: -20px;
+    position: absolute;
+    left: 240px;
+    top: 0px;
 
 }
-
 
 .promo:hover #ulpromo {
     display: block;
@@ -247,9 +242,9 @@ header {
 
 #ulconnapp {
     display: none;
-    position: relative;
-    left: 230px;
-    top: -20px;
+    position: absolute;
+    left: 240px;
+    top: 40px;
 }
 
 .connapp:hover #ulconnapp {
@@ -258,9 +253,9 @@ header {
 
 #ulcredit {
     display: none;
-    position: relative;
-    left: 250px;
-    top: -20px;
+    position: absolute;
+    left: 240px;
+    top: 175px;
 }
 
 .credit:hover #ulcredit {
@@ -273,9 +268,9 @@ header {
 
 .atstation:hover #ulatstation {
     display: block;
-    position: relative;
-    right: 270px;
-    top: -20px;
+    position: absolute;
+    right: 280px;
+    top: 175px;
 
 }
 
@@ -680,6 +675,7 @@ outline:3px solid darkblue;
 
 .footer {
     text-align: center;
+    font-weight: bold;
     
 }
 
