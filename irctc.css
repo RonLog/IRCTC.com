@@ -3,6 +3,9 @@
     padding: 0;
     scroll-behavior: smooth;
 }
+body{
+    overflow-x: hidden;
+}
 
 header {
 
@@ -675,7 +678,7 @@ outline:3px solid darkblue;
 
 .footer {
     text-align: center;
-    font-weight: bold;
+    font-weight: bolds;
     
 }
 
