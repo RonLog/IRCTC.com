@@ -458,6 +458,11 @@ outline:3px solid darkblue;
     display: flex;
     justify-content: center;
 }
+.video iframe{
+    box-shadow: 10px 10px 5px black;
+    border:50px solid white;
+    border-radius: 10px;
+}
 
 .holidays {
     display: flex;
